@@ -1,0 +1,78 @@
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: $black;
+}
+
+h2 {
+	font-size: 60px;
+	font-family: 'Raleway', cursive;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: $paragraphBlack;
+	text-align: center;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: $black;
+}
+
+h5 {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Open Sans', cursive;
+	color: $paragraphBlack;
+}
+		.textSmall {
+			font-size: 14px;
+		}
+		.textLarge {
+			font-size: 30px;
+		}
+		.textXLarge {
+			font-size: 50px;
+		}
+		.white {
+			color: $white;
+		}
+
+ul, li {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: $paragraphBlack;
+}
+
+
+.bold {
+	font-weight: 900;
+}
+
+.light {
+	font-weight: 100;
+}
+
+.textRed {
+	color: $textRed;
+}
